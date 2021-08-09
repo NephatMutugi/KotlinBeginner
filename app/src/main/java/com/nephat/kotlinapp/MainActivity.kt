@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.dice_6
         }
         mDiceImage.setImageResource(drawableResource)
+        mDiceImage.contentDescription = rollResult.toString()
     }
 }
 
